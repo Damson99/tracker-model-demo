@@ -70,7 +70,7 @@ def main():
                 except Exception as e:
                     st.error(f"Nie udało się usunąć folderu. Błąd: {e}")
         else:
-            st.warning("Nie znaleziono pliku wynikowego .mp4 w katalogu detekcji.")
+            st.warning("Nie znaleziono pliku wynikowego .mp4 w katalogu.")
 
 
 if __name__ == "__main__":
