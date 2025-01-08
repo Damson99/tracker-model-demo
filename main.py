@@ -23,7 +23,7 @@ def main():
         folder_name = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
         with st.spinner("Wykonuję detekcję..."):
-            model = YOLO("web/yolov10n_100_epochs.pt")
+            model = YOLO("yolov10n_100_epochs.pt")
 
             results = model.predict(
                 source=tmp_image_path,
